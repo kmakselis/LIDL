@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>LIDL Lietuva kontaktinė forma</title>
+
+  </head>
+  <body>
+    <div class="topnavigation">
+      <a href="https://www.lidl.lt/">LIDL Lietuva</a>
+      <a href="https://karjera.lidl.lt/">Karjera</a>
+      <a href="https://www.lidl.lt/informacija-pirkejui/dovanu-korteles">Informacija</a>
+      <a href="https://informacija-klientui.lidl.lt/SelfServiceLT/s/?_ga=2.88974815.574478945.1632072576-1955346591.1610655526">Pagalba ir kontaktai</a>
+      </div>
+
+    <h1>SVEIKI ATVYKĘ Į LIDL SAVITARNOS SVETAINĘ</h1>
+    <h2>Prašome užpildyti mūsų kontaktinę formą, kad galėtume kaip galima greičiau atsakyti į jūsų klausimus, prašymus bei pasiūlymus.</h2>
+
+    <form action="submitted.html" method="get">
+      <p style="font-size:30px;"><strong>Jūsų duomenys</strong></p>
+      <p style="font-size: 20px;">Kreipinys</p>
+      <label for="Kreipinys"></label>
+      <select name="Kreipinys" required>
+        <option value disabled selected>Prašome pasirinkti...</option>
+        <option value="Ponas">Ponas</option>
+        <option value="Ponia">Ponia</option>
+        <option value="Ponia">Kita</option>
+      </select><br>
+
+      <p style="font-size: 20px;">Vardas</p>
+      <input type="name" name="name" required><br>
+      <p style="font-size: 20px;">Pavardė</p>
+      <input type="surname" name="surname" required><br>
+      <p style="font-size: 20px;">Elektroninis paštas</p>
+      <input type="email" name="email" required><br>
+      <p style="font-size: 20px;">Telefono numeris</p>
+      <input type="tel" name="tel" placeholder="+370.." required><br>
+
+      <p style="font-size:30px;"><strong>Nusiskundimo informacija</strong></p>
+
+      <p style="font-size: 20px;"><strong>Pasirinkti temą:</strong></p><br>
+      <input id="radio1" type="radio" name="radio" value="Maisto, higienos prekių kokybė"
+      <label for="radio1">Maisto, higienos prekių kokybė</label><br>
+      <input id="radio1" type="radio" name="radio" value="Ne maisto prekių kokybė"
+      <label for="radio1">Ne maisto prekių kokybė</label><br>
+      <input id="radio2" type="radio" name="radio" value="Blogas aptarnavimas"
+      <label for="radio2">Blogas aptarnavimas</label><br>
+      <input id="radio3" type="radio" name="radio" value="Kiti nusiskundimai"
+      <label for="radio3">Kiti nusiskundimai</label><br>
+
+      <p><strong>Pasirinkite parduotuvę:</strong></p>
+      <label for="parduotuve"></label>
+      <select name="parduotuve" id="parduotuve" required>
+        <option value disabled selected>Parduotuvė</option>
+        <option value disabled>--VILNIUS--</option>
+        <option value="vilniusbalt">Baltupiai / Ateities g. 4A</option>
+        <option value="vilniusfab">Fabijoniškės / S. Nėries g. 16</option>
+        <option value="vilniusjust">Justiniškės / Virbeliškių g. 2</option>
+        <option value="vilniuskar">Karoliniškės / Sausio 13-osios g. 3</option>
+        <option value="vilniusnauja">Naujamiestis / Žemaitės g. 16</option>
+        <option value="vilniusnauji">Naujininkai / Kapsų g. 1</option>
+        <option value="vilniusnaujo">Naujoji Vilnia / Pramonės g. 17A</option>
+        <option value="vilniuspas">Pašilaičiai / Ukmergės g. 256</option>
+        <option value="vilniuspav">Pavilnys / Juodasis kelias 34</option>
+        <option value="vilniuspil">Pilaitė / Nidos g. 1</option>
+        <option value="vilniusged">Senamiestis / Gedimino pr. 9</option>
+        <option value="vilniussen">Senamiestis / Rasų g. 9A</option>
+        <option value="vilniusstan">S. Stanevičiaus g. 2A</option>
+        <option value="vilniussesk">Šeškinė / Dūkštų g. 34</option>
+        <option value="vilniussni">Šnipiškės / Kalvarijų g. 180</option>
+        <option value="vilniustrak">Trakų Vokė / J. Tiškevičiaus g. 17</option>
+        <option value="vilniusrink">Žirmūnai / Rinktinės g. 60</option>
+        <option value="vilniuszir">Žirmūnai / Žirmūnų g. 67</option>
+        <option value disabled>--KAUNAS--</option>
+        <option value="kaunasgri">Gričiupis / Baršausko g. 66A</option>
+        <option value="kaunaskal">Kalniečiai / Šiaurės pr. 1A</option>
+        <option value="kaunaspet">Petrašiūnai / T. Masiulio g. 16D</option>
+        <option value="kaunassav">Savanoriai / Savanorių pr. 315</option>
+        <option value="kaunassen">Senamiestis / Jonavos g. 40</option>
+        <option value="kaunassan">Šančiai / Juozapavičiaus pr. 127</option>
+        <option value="kaunassil">Šilainiai / Baltų pr. 10</option>
+        <option value="kaunasvei">Veiveriai / Veiverių g. 146</option>
+        <option value="kaunasvyt">Vytėnai / Islandijos pl. 30</option>
+        <option value disabled>--KLAIPĖDA--</option>
+        <option value="klaipedaban">Bandužiai / Smiltelės g. 19</option>
+        <option value="klaipedasar">Šarlotė / Liepojos g. 3</option>
+        <option value="klaipedapem">Pempininkai / Taikos pr. 66B</option>
+        <option value="klaipedatil">Tilžės g. 56B</option>
+        <option value disabled>--ŠIAULIAI--</option>
+        <option value="siauliaipra">Pramonės / Pramonės g. 1A</option>
+        <option value="siauliaidai">Dainiai / Tilžės g. 3</option>
+        <option value="siauliaiauk">Aukštoji / Tilžės g. 217</option>
+        <option value disabled>--MARIJAMPOLĖ--</option>
+        <option value="marijampolecen">Centras / Žemaitės g. 22</option>
+        <option value="marijampolepal">Palangos g. 22</option>
+        <option value disabled>--PANEVĖŽYS--</option>
+        <option value="panevezysbas">J. Basanavičiaus g. 67</option>
+        <option value="panevezyskos">Kosmonautų g. 14</option>
+        <option value="panevezyssme">Smėlynės g. 112A </option>
+        <option value disabled>--ALYTUS--</option>
+        <option value="alytus">Jazminų g. 32A</option>
+        <option value disabled>--ELEKTRĖNAI--</option>
+        <option value="elektrenai">Sabališkių g. 1D</option>
+        <option value disabled>--JONAVA--</option>
+        <option value="jonava">Žemaitės g. 3</option>
+        <option value disabled>--KĖDAINIAI--</option>
+        <option value="kedainiai">J. Basanavičiaus g. 87B</option>
+        <option value disabled>--KRETINGA--</option>
+        <option value="kretinga">Žemaitės al. 12</option>
+        <option value disabled>--MAŽEIKIAI--</option>
+        <option value="mazeikiai">Daukšos g. 24A</option>
+        <option value disabled>--PALANGA--</option>
+        <option value="palanga">Klaipėdos pl. 59</option>
+        <option value disabled>--PLUNGĖ--</option>
+        <option value="plunge">J. Tumo-Vaižganto g. 110</option>
+        <option value disabled>--RADVILIŠKIS--</option>
+        <option value="radviliskis">Gedimino g. 35</option>
+        <option value disabled>--ŠILUTĖ--</option>
+        <option value="silute">Tilžės g. 22A</option>
+        <option value disabled>--TAURAGĖ--</option>
+        <option value="taurage">Dariaus ir Girėno g. 48</option>
+        <option value disabled>--TELŠIAI--</option>
+        <option value="telsiai">Kitas</option>
+        <option value disabled>--UKMERGĖ--</option>
+        <option value="ukmerge">Vytauto g. 111A</option>
+        <option value disabled>--UTENA--</option>
+        <option value="utena">Basanavičiaus g. 125A</option>
+        <option value disabled>--VILKAVIŠKIS--</option>
+        <option value="vilkaviskis">Vytauto g. 77</option>
+        <option value disabled>--VISAGINAS--</option>
+        <option value="visaginas">Veteranų g. 9</option>
+      </select><br><br>
+
+      <p style="font-size: 20px;"><strong>Apsilankymo laikas:</strong></p>
+      <input type="date" name="date" value="apsilankymo laikas" min="2020-01-01" max="2021-09-20"><br>
+
+      <p style="font-size: 20px;">Papildoma informacija</p>
+      <textarea name="more" rows="8" cols="80" placeholder="Įveskite savo žinutę"></textarea><br><br>
+
+      <label for="myfile">Įkelti failus:</label>
+      <input type="file" id="myfile" name="myfile"><br><br>
+
+      <p>Atsakydami į Jūsų užklausą, mes tvarkome Jūsų asmens duomenis.
+        Teisės aktais nustatytą informaciją apie duomenų apsaugą rasite <a href="https://www.lidl.lt/klientu-duomenuapsauga">čia.</a><br>
+      </p>
+      <label for="Sutikimas">Sutinku, jog UAB "Lidl Lietuva" tvarkytų mano duomenis.</label>
+      <input id="sutikimas" type="checkbox" name="sutikimas" value="sutinku"><br><br>
+
+      <button type="submit" name="button">Siųsti</button>
+    </form>
+  </body>
+</html>
